@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مركز الصيانة المعتمد</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================== -->
+    <!-- شريط التنقل (Navbar) -->
+    <!-- ========================================== -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-wrench"></i> مركز الصيانة
+        </div>
+        <ul class="nav-links">
+            <li><a href="javascript:void(0)" onclick="document.getElementById('home').scrollIntoView({behavior:'smooth'})">الرئيسية</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">من نحن</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('brands').scrollIntoView({behavior:'smooth'})">الماركات</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">خدماتنا</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('faq').scrollIntoView({behavior:'smooth'})">أسئلة شائعة</a></li>
+            <li><a href="javascript:void(0)" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})" class="nav-book-btn">احجز الآن</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========================================== -->
+    <!-- الكود الأصلي الخاص بك: الهيدر -->
+    <!-- ========================================== -->
+    <header id="home" class="main-header">
+        <h1><i class="fas fa-tools gear-spin"></i> المركز الأول لصيانة الأجهزة المنزلية بمصر</h1>
+        <p>خبراء في صيانة الغسالات، التكييفات، والثلاجات بأعلى جودة وأسرع وقت.</p>
+    </header>
+
+    <!-- ========================================== -->
+    <!-- قسم جديد: من نحن (About Us) - موسع جداً -->
+    <!-- ========================================== -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">مين إحنا؟ 🏢</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <h3>تاريخ من الثقة والخبرة في مصر</h3>
+                <p>نحن المركز المعتمد الأول في مصر لتقديم خدمات الصيانة المنزلية الفورية. على مدار أكثر من 15 عاماً، استطعنا بناء اسم يعتمد عليه آلاف العملاء في جميع محافظات الجمهورية. نضم نخبة من أمهر المهندسين والفنيين المدربين على أعلى مستوى للتعامل مع كافة الأعطال المعقدة لجميع الماركات العالمية والمحلية.</p>
+                
+                <h3>رؤيتنا ومهمتنا</h3>
+                <p><strong>مهمتنا:</strong> إعادة جهازك للعمل بكفاءة 100% في أسرع وقت وبدون الحاجة لنقله من مكانه، مع توفير قطع غيار أصلية تضمن لك راحة البال.<br>
+                <strong>رؤيتنا:</strong> أن نكون الخيار الأول والوحيد لكل أسرة مصرية تبحث عن الأمان، السرعة، والمصداقية في صيانة أجهزتها المنزلية.</p>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat-box">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>+15</h3>
+                    <p>سنة من الخبرة</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-smile"></i>
+                    <h3>+25,000</h3>
+                    <p>عميل راضي</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>27</h3>
+                    <p>محافظة نغطيها</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7</h3>
+                    <p>دعم فني متواصل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- قسم جديد: الماركات المعتمدة (Brands) -->
+    <!-- ========================================== -->
+    <section id="brands" class="brands-section">
+        <h2 class="section-title">ماركات نعتمد صيانتها 🏅</h2>
+        <p class="section-subtitle">متخصصون في صيانة أشهر الماركات العالمية بقطع غيار أصلية</p>
+        <div class="brands-grid">
+            <div class="brand-item">LG</div>
+            <div class="brand-item">Samsung</div>
+            <div class="brand-item">Toshiba</div>
+            <div class="brand-item">Zanussi</div>
+            <div class="brand-item">Tornado</div>
+            <div class="brand-item">Carrier</div>
+            <div class="brand-item">Sharp</div>
+            <div class="brand-item">Beko</div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- الكود الأصلي الخاص بك: الخدمات -->
+    <!-- ========================================== -->
+    <section id="services" class="services-section">
+        <h2 class="section-title">إحنا بنصلح إيه؟ 🛠️</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=500&auto=format&fit=crop" alt="صيانة تكييفات">
+                <h3>صيانة التكييفات ❄️</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> شحن فريون بالضمان</li>
+                    <li><i class="fas fa-check-circle"></i> تغيير كباسات ومواتير</li>
+                    <li><i class="fas fa-check-circle"></i> حل مشاكل تسريب المياه</li>
+                    <li><i class="fas fa-check-circle"></i> تنظيف وغسيل الوحدة الداخلية والخارجية</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?q=80&w=500&auto=format&fit=crop" alt="صيانة ثلاجات">
+                <h3>صيانة الثلاجات 🧊</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> تغيير موتور (كباس) أصلي</li>
+                    <li><i class="fas fa-check-circle"></i> إصلاح تسريب الغاز وشحن فريون</li>
+                    <li><i class="fas fa-check-circle"></i> حل مشاكل ضعف التبريد أو التجميد</li>
+                    <li><i class="fas fa-check-circle"></i> تغيير ثرموستات أو تايمر</li>
+                </ul>
+            </div>
+            <div class="service-card">
+                <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?q=80&w=500&auto=format&fit=crop" alt="صيانة غسالات">
+                <h3>صيانة الغسالات 🧺</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> تغيير رومان بلي وأولسيه</li>
+                    <li><i class="fas fa-check-circle"></i> إصلاح وتغيير الكارتة الإلكترونية</li>
+                    <li><i class="fas fa-check-circle"></i> حل مشكلة عدم طرد المياه (تغيير طلمبة)</li>
+                    <li><i class="fas fa-check-circle"></i> صيانة مواتير الغسالات الفول أوتوماتيك</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- قسم جديد: مميزاتنا (Why Choose Us) - موسع -->
+    <!-- ========================================== -->
+    <section id="features" class="features-section">
+        <h2 class="section-title">ليه تختارنا؟ 🌟</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>ضمان معتمد وحقيقي</h3>
+                <p>نقدم لك ضماناً حقيقياً وموثقاً بفاتورة رسمية على الصيانة وقطع الغيار يدوم لشهور، لضمان حقك الكامل بعد إتمام العمل.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-cogs"></i>
+                <h3>قطع غيار أصلية 100%</h3>
+                <p>لا نستخدم أي قطع غيار مجهولة المصدر. نستبدل القطع التالفة بأخرى أصلية من بلد المنشأ لضمان أطول عمر افتراضي لجهازك.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-truck-fast"></i>
+                <h3>صيانة فورية بالمنزل</h3>
+                <p>لدينا أسطول سيارات مجهز بأحدث المعدات يصلك أينما كنت لعمل الصيانة الفورية أمام عينيك دون الحاجة لنقل الجهاز للمركز.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-user-tie"></i>
+                <h3>فريق هندسي محترف</h3>
+                <p>فريقنا يتكون من مهندسين وليس مجرد فنيين، مدربين على أحدث تكنولوجيا الأجهزة المنزلية لاكتشاف الأعطال بدقة وسرعة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- قسم جديد: الأسئلة الشائعة (FAQ) -->
+    <!-- ========================================== -->
+    <section id="faq" class="faq-section">
+        <h2 class="section-title">الأسئلة الشائعة ❓</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>هل يتم نقل الجهاز لمقر المركز للصيانة؟</h3>
+                <p>في 95% من الحالات تتم الصيانة بالكامل داخل منزل العميل وأمام عينيه. فقط في الحالات شديدة التعقيد التي تتطلب أجهزة اختبار خاصة يتم نقل الجهاز بسياراتنا المجهزة.</p>
+            </div>
+            <div class="faq-item">
+                <h3>ما هي مدة الضمان على الصيانة؟</h3>
+                <p>تختلف مدة الضمان حسب نوع العطل وقطعة الغيار المستبدلة، ولكنها تتراوح عادة بين 3 أشهر إلى عام كامل، وتكون مدونة بوضوح في الفاتورة المعتمدة.</p>
+            </div>
+            <div class="faq-item">
+                <h3>كم يستغرق وصول الفني بعد الحجز؟</h3>
+                <p>بمجرد تسجيل طلبك، يقوم قسم الدعم الفني بالتواصل معك خلال دقائق لتحديد الموعد. عادة ما يصل الفني في نفس اليوم أو خلال 24 ساعة كحد أقصى.</p>
+            </div>
+            <div class="faq-item">
+                <h3>هل هناك رسوم للكشف أو الزيارة؟</h3>
+                <p>يوجد رسوم زيارة وكشف بسيطة ومحددة مسبقاً، ولكن يتم خصم هذه الرسوم بالكامل من إجمالي التكلفة في حال موافقتك على إتمام الإصلاح والصيانة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- الكود الأصلي الخاص بك: الفورم (بدون أي تعديل) -->
+    <!-- ========================================== -->
+    <section id="booking" class="booking-section">
+        <div class="booking-container fade-in-down">
+          <h2>احجز موعد صيانة الآن ⏱️</h2>
+          
+          <div class="form-group animation-delay-1">
+            <label>1. إيه الجهاز اللي محتاج صيانة؟</label>
+            <select id="device-type" onchange="updateBrands(); checkForm();">
+              <option value="" disabled selected>اختار الجهاز...</option>
+              <option value="washing-machine">غسالة</option>
+              <option value="ac">تكييف</option>
+              <option value="fridge">ثلاجة</option>
+            </select>
+          </div>
+
+          <div class="form-group brand-group animation-delay-2" id="brand-group">
+            <label>2. ماركة الجهاز إيه؟</label>
+            <select id="brand-type" onchange="checkForm();"></select>
+          </div>
+
+          <div class="form-group animation-delay-3">
+            <label>3. ساكن فين؟ (مصر 🇪🇬)</label>
+            <select id="location" onchange="checkForm();">
+              <option value="" disabled selected>اختار المحافظة...</option>
+              <option value="cairo">القاهرة</option>
+              <option value="giza">الجيزة</option>
+              <option value="alexandria">الإسكندرية</option>
+              <option value="qalyubia">القليوبية</option>
+              <option value="dakahlia">الدقهلية</option>
+              <option value="sharqia">الشرقية</option>
+              <option value="monufia">المنوفية</option>
+              <option value="gharbia">الغربية</option>
+              <option value="kafr-el-sheikh">كفر الشيخ</option>
+              <option value="beheira">البحيرة</option>
+              <option value="damietta">دمياط</option>
+              <option value="ismailia">الإسماعيلية</option>
+              <option value="port-said">بورسعيد</option>
+              <option value="suez">السويس</option>
+              <option value="matrouh">مطروح</option>
+              <option value="north-sinai">شمال سيناء</option>
+              <option value="south-sinai">جنوب سيناء</option>
+              <option value="fayoum">الفيوم</option>
+              <option value="beni-suef">بني سويف</option>
+              <option value="minya">المنيا</option>
+              <option value="assiut">أسيوط</option>
+              <option value="sohag">سوهاج</option>
+              <option value="qena">قنا</option>
+              <option value="luxor">الأقصر</option>
+              <option value="aswan">أسوان</option>
+              <option value="red-sea">البحر الأحمر</option>
+              <option value="new-valley">الوادي الجديد</option>
+            </select>
+          </div>
+
+          <div id="submit-area" style="max-height: 0; overflow: hidden; transition: all 0.5s ease; opacity: 0; margin-top: 20px; text-align: center;">
+            <button class="call-btn pulse-animation" onclick="sendOrder()">
+              <i class="fas fa-paper-plane"></i> إرسال الطلب الآن
+            </button>
+          </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- قسم جديد: آراء العملاء (Testimonials) -->
+    <!-- ========================================== -->
+    <section class="testimonials-section">
+        <h2 class="section-title">آراء عملائنا 💬</h2>
+        <div class="testimonials-grid">
+            <div class="review-card">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"خدمة فوق الممتازة، المهندس وصل في ميعاده وصلح التكييف في أقل من ساعة ومشي، والجهاز شغال ثلاجة. أنصح بيهم جداً."</p>
+                <h4>- محمود عادل (القاهرة)</h4>
+            </div>
+            <div class="review-card">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                <p>"أسعارهم كويسة جداً والضمان حقيقي، ركبوا موتور جديد للثلاجة وشغالة زي الفل ومفيش أي صوت عالي. شكراً لمركز الصيانة."</p>
+                <h4>- سارة كمال (الجيزة)</h4>
+            </div>
+            <div class="review-card">
+                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                <p>"بصراحة سرعة استجابة محترمة جداً، كلمتهم الصبح جم على العصر صلحوا الغسالة ومشيوا. الفني كان محترم وفاهم شغله."</p>
+                <h4>- أحمد صبري (الإسكندرية)</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- قسم جديد: الفوتر (Footer) -->
+    <!-- ========================================== -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3><i class="fas fa-tools"></i> مركز الصيانة المعتمد</h3>
+                <p>خيارك الأول لراحة بالك وصيانة أجهزتك بأمان واحترافية. نعمل من أجل توفير أفضل خدمة صيانة منزلية في مصر.</p>
+            </div>
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="javascript:void(0)" onclick="document.getElementById('home').scrollIntoView({behavior:'smooth'})">الرئيسية</a></li>
+                    <li><a href="javascript:void(0)" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">من نحن</a></li>
+                    <li><a href="javascript:void(0)" onclick="document.getElementById('faq').scrollIntoView({behavior:'smooth'})">الأسئلة الشائعة</a></li>
+                    <li><a href="javascript:void(0)" onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">احجز موعد صيانة</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>تواصل معنا</h3>
+                <p><i class="fas fa-phone"></i> الخط الساخن: 01155664606</p>
+                <p><i class="fas fa-envelope"></i> البريد: support@maintenance.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> المقر الرئيسي: القاهرة، جمهورية مصر العربية</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>جميع الحقوق محفوظة &copy; 2026 لمركز الصيانة المعتمد. تم التصميم والتطوير بكل احترافية.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
